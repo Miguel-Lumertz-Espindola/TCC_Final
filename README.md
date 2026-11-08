@@ -18,14 +18,14 @@ backend/   API Spring Boot e mapeamentos JPA para PostgreSQL
 ## Funcionalidades
 
 - Cadastro em etapas, com objetivo, atividade física, peso, altura, preferências da rotina e tags alimentares combináveis.
-- Seleção inicial entre seis perfis e cardápios demonstrativos previamente cadastrados.
+- Seleção pelo cadastro de um entre seis perfis e cardápios demonstrativos previamente cadastrados.
 - Diário alimentar, itens alimentares e valores nutricionais opcionais.
 - Metas nutricionais com histórico de alterações.
 - Check-ins com pontuação por horário e sequência de dias com pontos.
 - Conquistas, ranking e seleção de personagem.
 - Guerreiro inicial e mago disponível com 30 pontos acumulados para demonstração, sem gastar pontos na troca.
 
-Os cardápios, valores de referência dos perfis e critérios de comparação do catálogo inicial são demonstrativos. Eles não constituem prescrição nutricional individualizada. Os detalhes estão em `backend/docs`.
+A construção dos seis perfis é uma adaptação de projeto fundamentada na análise comparativa dos estudos discutidos no TCC. Essa fundamentação orientou a escolha dos critérios de seleção, como objetivo nutricional, atividade física, praticidade, organização da rotina, orçamento, preferências e restrições alimentares.
 
 ## Executar o backend
 
