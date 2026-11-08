@@ -36,9 +36,9 @@ Os cardápios, valores de referência dos perfis e critérios de comparação do
 
 | Variável | Valor |
 | --- | --- |
-| `DB_USER` | Seu usuário do PostgreSQL |
-| `DB_PASSWORD` | Sua senha do PostgreSQL |
-| `DB_URL` | Opcional; padrão `jdbc:postgresql://localhost:5432/Database_TCC` |
+| `DB_USER` | postgres |
+| `DB_PASSWORD` | 1227 |
+| `DB_URL` | jdbc:postgresql://localhost:5432/Database_TCC |
 
 No IntelliJ, essas variáveis podem ser definidas na configuração de execução da aplicação. Não grave credenciais reais nos arquivos versionados.
 
