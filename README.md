@@ -1,4 +1,5 @@
-# Rastreamento nutricional gamificado - TCC
+# USO DE TÉCNICAS DE GAMIFICAÇÃO COMO ESTRATÉGIA DE
+APOIO AO GERENCIAMENTO DE DIETAS
 
 Aplicativo Android para acompanhamento da rotina alimentar, com check-ins, diário alimentar, metas e recursos de gamificação. Projeto de Trabalho de Conclusão de Curso na UNESC.
 
