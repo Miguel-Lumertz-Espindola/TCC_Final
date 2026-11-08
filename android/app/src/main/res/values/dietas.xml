@@ -1,0 +1,21 @@
+<resources>
+    <string name="cadastro_perfil_preencher">Selecione objetivo, atividade, praticidade, rotina e orçamento</string>
+    <string name="cadastro_praticidade">Tempo disponível para preparar as refeições</string>
+    <string name="cadastro_rigor">Organização da rotina alimentar</string>
+    <string name="cadastro_orcamento">Preferência de orçamento</string>
+    <string-array name="cadastro_praticidades"><item>Selecione</item><item>Prefiro preparações rápidas</item><item>Posso preparar refeições elaboradas</item></string-array>
+    <string-array name="cadastro_rigores"><item>Selecione</item><item>Prefiro uma rotina flexível</item><item>Prefiro uma rotina estruturada</item></string-array>
+    <string-array name="cadastro_orcamentos"><item>Selecione</item><item>Priorizar opções econômicas</item><item>Tenho flexibilidade no orçamento</item></string-array>
+    <string name="cadastro_tags_titulo">Restrições e preferências alimentares</string>
+    <string name="cadastro_tags_ajuda">Selecione todas as opções que se aplicam. As tags são opcionais e podem ser combinadas.</string>
+    <string name="cadastro_tags_lactose">A tag sem lactose se refere à lactose; ela não indica um plano adequado para alergia ao leite.</string>
+    <string name="tag_sem_lactose">Sem lactose</string><string name="tag_sem_gluten">Sem glúten</string>
+    <string name="tag_vegetariano">Vegetariano</string><string name="tag_vegano">Vegano</string>
+    <string name="dieta_titulo">Dieta sugerida</string><string name="dieta_abrir">Minha dieta</string>
+    <string name="dieta_diario">Diário alimentar</string>
+    <string name="dieta_carregando">Consultando sua sugestão alimentar…</string>
+    <string name="dieta_erro">Não foi possível consultar a sugestão. Confira a conexão e tente novamente.</string>
+    <string name="dieta_sem_plano">Sugestão ainda indisponível</string>
+    <string name="dieta_criterios">Por que este perfil foi escolhido:</string>
+    <string name="dieta_continuar">Continuar para o personagem</string>
+</resources>

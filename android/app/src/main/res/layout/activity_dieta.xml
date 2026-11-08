@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/ranking_background">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbarDieta" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="@string/dieta_titulo" app:titleTextColor="@color/ranking_accent" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+            <TextView android:id="@+id/estadoDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/ranking_text_secondary" android:accessibilityLiveRegion="polite" />
+            <Button android:id="@+id/repetirDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diario_retry" android:visibility="gone" />
+            <LinearLayout android:id="@+id/conteudoDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:visibility="gone">
+                <TextView android:id="@+id/nomePerfilDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/white" />
+                <TextView android:id="@+id/varianteDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textSize="16sp" android:textColor="@color/ranking_accent" />
+                <com.google.android.material.chip.ChipGroup android:id="@+id/tagsDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+                <TextView android:id="@+id/avisoDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textSize="14sp" android:textColor="@color/ranking_text_secondary" />
+                <TextView android:id="@+id/criteriosDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:textSize="14sp" android:textColor="@color/white" android:lineSpacingExtra="4dp" />
+                <LinearLayout android:id="@+id/refeicoesDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@+id/continuarDieta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/dieta_continuar" android:visibility="gone" />
+</LinearLayout>

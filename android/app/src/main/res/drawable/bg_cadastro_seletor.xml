@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ranking_surface" />
+            <corners android:radius="4dp" />
+            <stroke android:width="1dp" android:color="@color/cadastro_contorno" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_cadastro_expandir" android:width="20dp" android:height="20dp" android:gravity="end|center_vertical" android:right="12dp" />
+</layer-list>

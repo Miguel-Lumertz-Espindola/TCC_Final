@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_ranking_row" android:padding="12dp" android:layout_marginTop="8dp">
+    <TextView android:id="@+id/nomeAlimentoForm" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/ranking_accent" android:textStyle="bold" android:textSize="16sp" />
+    <TextView android:id="@+id/nutrientesAlimentoForm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/ranking_text_secondary" android:textSize="13sp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="end">
+        <Button android:id="@+id/editarAlimentoForm" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alimentos_edit" />
+        <Button android:id="@+id/removerAlimentoForm" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alimentos_remove" />
+    </LinearLayout>
+</LinearLayout>

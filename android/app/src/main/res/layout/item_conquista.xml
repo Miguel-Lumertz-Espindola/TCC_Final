@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:minHeight="120dp" android:clickable="true" android:focusable="true" android:foreground="?attr/selectableItemBackground"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/imgMedalha"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_achievement_trophy_24"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/txtNomeConquista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primeiro Passo"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+    android:gravity="center"
+    android:layout_marginTop="8dp"
+    android:maxLines="2"
+    android:ellipsize="end" />
+
+</LinearLayout>

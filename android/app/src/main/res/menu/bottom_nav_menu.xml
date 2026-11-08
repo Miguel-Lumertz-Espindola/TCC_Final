@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_achievement_trophy_24"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_character_shield_24"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_ranking"
+        android:icon="@drawable/ic_ranking_podium_24"
+        android:title="@string/title_notifications" />
+
+</menu>

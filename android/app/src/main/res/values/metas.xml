@@ -1,0 +1,31 @@
+<resources>
+    <string name="metas_title">Minhas metas</string>
+    <string name="metas_back">Voltar ao diário</string>
+    <string name="metas_help">Defina suas metas diárias. Preencha os valores que deseja acompanhar e deixe os demais em branco.</string>
+    <string name="metas_vigencia_help">As alterações valem a partir de hoje. Ao consultar dias anteriores, o diário mantém as metas daquele período. Se houver várias alterações no mesmo dia, vale a última.</string>
+    <string name="metas_objective">Objetivo</string>
+    <string name="metas_calories">Meta de calorias (kcal/dia)</string>
+    <string name="metas_protein">Meta de proteínas (g/dia)</string>
+    <string name="metas_carbs">Meta de carboidratos (g/dia)</string>
+    <string name="metas_fat">Meta de gorduras (g/dia)</string>
+    <string name="metas_save">Salvar metas</string>
+    <string name="metas_loading">Carregando metas…</string>
+    <string name="metas_saved">Metas salvas.</string>
+    <string name="metas_unknown">não definida</string>
+    <string name="metas_empty">Sem metas definidas para este dia.</string>
+    <string name="metas_unavailable">Não foi possível consultar as metas. Abra Minhas metas para tentar novamente.</string>
+    <string name="metas_since">Metas em vigor desde %1$s</string>
+    <string name="metas_history">Histórico de alterações (últimas 50)</string>
+    <string name="metas_history_empty">Você ainda não definiu metas.</string>
+    <string name="metas_history_error">Não foi possível carregar o histórico.</string>
+    <string name="metas_objective_required">Selecione seu objetivo.</string>
+    <string name="metas_at_least_one">Informe pelo menos uma meta diária.</string>
+    <string name="metas_invalid">Informe um valor positivo, até 999999999, com até duas casas decimais, ou deixe em branco.</string>
+    <string name="metas_comparison">%1$s: %2$s / meta %3$s</string>
+    <string name="metas_label_calories">Calorias</string>
+    <string name="metas_label_protein">Proteínas</string>
+    <string name="metas_label_carbs">Carboidratos</string>
+    <string name="metas_label_fat">Gorduras</string>
+    <string name="metas_history_item">%1$s · %2$s</string>
+    <string-array name="metas_objectives"><item>Selecione</item><item>Manutenção</item><item>Emagrecimento</item><item>Hipertrofia</item></string-array>
+</resources>

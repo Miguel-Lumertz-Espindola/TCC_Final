@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:orientation="vertical" android:padding="12dp" android:background="@drawable/bg_ranking_row">
+<TextView android:id="@+id/tituloHistoricoMetas" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/ranking_accent" android:textStyle="bold" />
+<TextView android:id="@+id/valoresHistoricoMetas" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/white" />
+</LinearLayout>

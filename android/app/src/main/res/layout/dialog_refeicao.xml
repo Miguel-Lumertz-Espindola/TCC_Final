@@ -1,0 +1,18 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:id="@+id/formularioRefeicao" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diario_type" android:labelFor="@+id/tipoRefeicaoDiario" />
+        <Spinner android:id="@id/tipoRefeicaoDiario" android:layout_width="match_parent" android:layout_height="48dp" />
+        <Button android:id="@+id/dataRefeicaoDiario" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <Button android:id="@+id/horaRefeicaoDiario" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/diario_description">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/consumoDiario" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapSentences|textMultiLine" android:minLines="2" android:maxLength="1000" android:gravity="top" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/diario_notes">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/observacaoDiario" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapSentences|textMultiLine" android:maxLength="500" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/alimentos_title" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/ranking_accent" />
+        <TextView android:id="@+id/ajudaItens" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/alimentos_empty" android:textColor="@color/ranking_text_secondary" />
+        <LinearLayout android:id="@+id/itensRefeicaoDiario" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+        <Button android:id="@+id/adicionarItemRefeicao" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alimentos_add" />
+    </LinearLayout>
+</ScrollView>

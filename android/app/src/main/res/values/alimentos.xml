@@ -1,0 +1,32 @@
+<resources>
+    <string name="alimentos_no_nutrients">Valores nutricionais não informados.</string>
+    <string name="alimentos_title">Alimentos (opcional)</string>
+    <string name="alimentos_add">Adicionar alimento</string>
+    <string name="alimentos_edit">Editar alimento</string>
+    <string name="alimentos_remove">Remover</string>
+    <string name="alimentos_name">Nome do alimento</string>
+    <string name="alimentos_quantity">Quantidade (opcional)</string>
+    <string name="alimentos_unit">Unidade (opcional)</string>
+    <string name="alimentos_calories">Calorias (kcal)</string>
+    <string name="alimentos_protein">Proteínas (g)</string>
+    <string name="alimentos_carbs">Carboidratos (g)</string>
+    <string name="alimentos_fat">Gorduras (g)</string>
+    <string name="alimentos_portion">Valores nutricionais opcionais</string>
+    <string name="alimentos_portion_help">Informe os valores da porção consumida, não por 100 g. Se não souber, deixe em branco.</string>
+    <string name="alimentos_empty">Você pode salvar só a descrição ou detalhar os alimentos abaixo.</string>
+    <string name="alimentos_undetailed">Alimentos não detalhados</string>
+    <string name="alimentos_unknown">não informado</string>
+    <string name="alimentos_partial">%1$s (parcial)</string>
+    <string name="alimentos_metric">%1$s %2$s</string>
+    <string name="alimentos_amount">%1$s · %2$s %3$s</string>
+    <string name="alimentos_total_title">Totais conhecidos do dia</string>
+    <string name="alimentos_total_help">Parcial: há alimentos ou refeições sem esse valor. Campos vazios não entram na soma.</string>
+    <string name="alimentos_total_complete">Soma dos valores informados para as porções consumidas.</string>
+    <string name="alimentos_metrics">Calorias: %1$s\nProteínas: %2$s · Carboidratos: %3$s\nGorduras: %4$s</string>
+    <string name="alimentos_name_required">Informe o nome do alimento.</string>
+    <string name="alimentos_number_error">Use um valor maior ou igual a zero, até 999999999, com até %1$d casas decimais.</string>
+    <string name="alimentos_quantity_error">A quantidade deve ser maior que zero.</string>
+    <string name="alimentos_pair_error">Preencha quantidade e unidade juntas ou deixe ambas vazias.</string>
+    <string name="alimentos_limit">Adicione até 50 alimentos por refeição.</string>
+    <string-array name="alimentos_units"><item>Sem unidade</item><item>g</item><item>ml</item><item>unidade(s)</item><item>porção(ões)</item><item>colher(es) de sopa</item><item>xícara(s)</item></string-array>
+</resources>

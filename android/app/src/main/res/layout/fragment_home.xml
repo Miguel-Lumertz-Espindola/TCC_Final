@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp"
+    tools:context="com.example.tcc_final.ui.home.HomeFragment">
+
+    <!-- Cabeçalho: Pontuação e Ofensiva (Core Drive 8: Loss & Avoidance) -->
+    <LinearLayout
+        android:id="@+id/layoutStatusInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textPontuacao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🏆 Pontos: 0"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOfensiva"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="🔥 0 dias"
+            android:textColor="#FF9800"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Nível e Barra de Progresso (Core Drive 2: Development & Accomplishment) -->
+    <TextView
+        android:id="@+id/textNivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Nível 1 - Iniciante"
+        android:textColor="#B3B3B3"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutStatusInfo" />
+
+    <ProgressBar
+        android:id="@+id/progressBarNivel"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/custom_progress_bar"
+        android:progressTint="#007BFF"
+        app:layout_constraintTop_toBottomOf="@+id/textNivel" />
+
+    <!-- Moldura do personagem -->
+    <FrameLayout
+        android:id="@+id/molduraPersonagem"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_personagem_moldura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressBarNivel">
+
+        <ImageView
+            android:id="@+id/imageViewMascote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_character_shield_24"
+            android:contentDescription="@string/home_personagem_animado" />
+        <FrameLayout
+            android:id="@+id/btnTrocarPersonagem"
+            android:layout_width="48dp" android:layout_height="48dp" android:layout_gravity="top|end"
+            android:background="@drawable/bg_botao_personagem" android:clickable="true" android:focusable="true"
+            android:contentDescription="@string/trocar_personagem" android:tooltipText="@string/trocar_personagem">
+            <ImageView android:id="@+id/iconePersonagemAtual" android:layout_width="36dp" android:layout_height="36dp"
+                android:layout_gravity="center" android:src="@drawable/personagem_guerreiro_icone" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_gravity="bottom|end"
+                android:layout_margin="2dp" android:src="@drawable/ic_personagem_menu" android:importantForAccessibility="no" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <!-- Status do Mascote -->
+    <TextView
+        android:id="@+id/textStatusMascote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Animado"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/molduraPersonagem" />
+
+    <LinearLayout
+        android:id="@+id/acoesAlimentacao"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/textStatusMascote">
+        <Button android:id="@+id/btnAbrirDieta" android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:minHeight="56dp" android:layout_marginEnd="4dp"
+            android:text="@string/dieta_abrir" android:textSize="14sp" android:textAllCaps="false" />
+        <Button android:id="@+id/btnAbrirDiario" android:layout_width="0dp" android:layout_weight="1"
+            android:layout_height="wrap_content" android:minHeight="56dp" android:layout_marginStart="4dp"
+            android:text="@string/dieta_diario" android:textSize="14sp" android:textAllCaps="false" />
+    </LinearLayout>
+
+    <!-- A Lista de Alimentos  -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAlimentos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/acoesAlimentacao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

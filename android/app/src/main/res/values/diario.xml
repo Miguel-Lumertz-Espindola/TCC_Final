@@ -1,0 +1,48 @@
+<resources>
+    <string name="diario_back">Voltar ao personagem</string>
+    <string name="diario_future">A refeição não pode ter data ou horário futuros.</string>
+    <string name="diario_title">Diário alimentar</string>
+    <string name="diario_open">Abrir diário alimentar</string>
+    <string name="diario_new">Registrar refeição</string>
+    <string name="diario_edit">Editar refeição</string>
+    <string name="diario_delete">Excluir</string>
+    <string name="diario_save">Salvar</string>
+    <string name="diario_cancel">Cancelar</string>
+    <string name="diario_today">Hoje</string>
+    <string name="diario_previous">Dia anterior</string>
+    <string name="diario_next">Próximo dia</string>
+    <string name="diario_loading">Carregando refeições…</string>
+    <string name="diario_empty">Nenhuma refeição registrada neste dia.</string>
+    <string name="diario_retry">Tentar novamente</string>
+    <string name="diario_connection">Não foi possível conectar ao servidor. Confira a conexão com a API.</string>
+    <string name="diario_session">Faça login novamente para abrir seu diário.</string>
+    <string name="diario_type">Tipo de refeição</string>
+    <string name="diario_description">Descrição (opcional se adicionar alimentos)</string>
+    <string name="diario_notes">Observação (opcional)</string>
+    <string name="diario_description_required">Descreva o consumo ou adicione um alimento.</string>
+    <string name="diario_delete_title">Excluir refeição?</string>
+    <string name="diario_delete_message">Este registro será removido do seu diário.</string>
+    <string name="diario_saved">Refeição salva.</string>
+    <string name="diario_deleted">Refeição excluída.</string>
+    <string name="diario_saving">Salvando…</string>
+    <string name="diario_busy">Aguarde a operação atual terminar.</string>
+    <string name="diario_server_error">Não foi possível concluir a operação (HTTP %1$d).</string>
+    <string name="diario_date">Data: %1$s</string>
+    <string name="diario_time">Horário: %1$s</string>
+    <string name="diario_summary">%1$s · %2$s</string>
+    <string-array name="diario_types"><item>Café da manhã</item><item>Almoço</item><item>Jantar</item><item>Lanche</item><item>Outros</item></string-array>
+    <style name="Theme.Tcc_final.Diario" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/ranking_accent</item>
+        <item name="colorSecondary">@color/ranking_accent</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/ranking_surface</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="android:colorBackground">@color/ranking_background</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/ranking_text_secondary</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

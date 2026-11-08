@@ -1,0 +1,41 @@
+# Ambiente e IDE
+.gradle/
+.kotlin/
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+local.properties
+
+# Compilação e relatórios
+**/build/
+**/target/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.class
+*.dex
+*.hprof
+*.log
+
+# Credenciais e chaves locais
+.env
+.env.*
+!.env.example
+application-local.properties
+application-private.properties
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,18 @@
+<resources>
+    <string name="home_info_pontuacao">Como funciona a pontuação</string>
+    <string name="home_precisao_intro">A precisão considera o horário da API ao confirmar cada refeição.</string>
+    <string name="home_precisao_exata">100% preciso · 30 pontos</string>
+    <string name="home_precisao_parcial">Parcialmente preciso · 15 pontos</string>
+    <string name="home_precisao_imprecisa">Impreciso · 0 pontos</string>
+    <string name="home_precisao_imprecisa_horario">Fora das faixas de horário da refeição escolhida.</string>
+    <string name="home_checkin_explicacao">Cada refeição pode ser registrada uma vez por dia. “Alimentado” significa que ela já foi registrada hoje, mesmo quando valeu 0 pontos. Os botões liberam novamente no dia seguinte. A sequência de dias exige ao menos um check-in com pontos por dia.</string>
+    <string name="home_refeicao_manha">Refeição da manhã</string>
+    <string name="home_refeicao_almoco">Refeição do meio-dia</string>
+    <string name="home_refeicao_noite">Refeição da noite</string>
+    <string name="home_refeicao_registrada">Registrado hoje</string>
+    <string name="home_horarios_carregando">Consultando horários…</string>
+    <string name="home_horarios_erro">Não foi possível consultar os horários. Feche esta janela e tente novamente.</string>
+    <string name="home_horarios_indisponiveis">Horários indisponíveis</string>
+    <string name="home_horario_referencia">Horário consultado na API: %1$s · Fuso: %2$s</string>
+    <string name="home_faixa_checkin">%1$s: %2$s até antes de %3$s</string>
+</resources>

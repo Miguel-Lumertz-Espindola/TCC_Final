@@ -1,0 +1,14 @@
+<resources>
+    <string name="personagens_titulo">Personagens</string>
+    <string name="personagens_ajuda">Toque em um personagem para usar.</string>
+    <string name="personagens_consultando">Consultando…</string>
+    <string name="personagens_salvando">Aguarde a operação terminar…</string>
+    <string name="personagens_indisponiveis">Abra a aba novamente para consultar os personagens.</string>
+    <string name="personagens_sem_custo">Desbloqueie com pontos acumulados. Trocar não gasta pontos.</string>
+    <string name="personagem_guerreiro">Guerreiro</string><string name="personagem_mago">Mago</string>
+    <string name="personagem_em_uso">Em uso</string><string name="personagem_disponivel">Disponível</string>
+    <string name="personagem_bloqueado">Bloqueado</string>
+    <string name="personagem_meta">%1$d pontos</string><string name="personagem_faltam">Faltam %1$d pontos</string>
+    <string name="trocar_personagem">Trocar personagem</string>
+    <string name="personagem_ativo">Personagem animado: %1$s</string>
+</resources>

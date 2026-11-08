@@ -1,0 +1,47 @@
+<resources>
+    <color name="cadastro_erro">#FFB4AB</color>
+    <style name="Theme.Tcc_final.Cadastro" parent="Theme.Tcc_final.Diario">
+        <item name="android:windowBackground">@color/ranking_background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="colorControlNormal">@color/ranking_text_secondary</item>
+        <item name="colorControlActivated">@color/ranking_accent</item>
+        <item name="colorError">@color/cadastro_erro</item>
+        <item name="textInputStyle">@style/Widget.Tcc_final.Cadastro.Campo</item>
+        <item name="editTextStyle">@style/Widget.Tcc_final.Cadastro.TextoCampo</item>
+        <item name="materialButtonStyle">@style/Widget.Tcc_final.Cadastro.Botao</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.Campo" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/ranking_surface</item>
+        <item name="boxStrokeColor">@color/cadastro_contorno</item>
+        <item name="hintTextColor">@color/cadastro_destaque</item>
+        <item name="android:textColorHint">@color/ranking_text_secondary</item>
+        <item name="boxStrokeErrorColor">@color/cadastro_erro</item>
+        <item name="errorTextColor">@color/cadastro_erro</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.TextoCampo" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/ranking_text</item>
+        <item name="android:textColorHint">@color/ranking_text_secondary</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.Botao" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/cadastro_botao_fundo</item>
+        <item name="android:textColor">@color/cadastro_botao_texto</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.BotaoSecundario" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/cadastro_destaque</item>
+        <item name="android:textColor">@color/cadastro_destaque</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.BotaoTexto" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/cadastro_destaque</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.Seletor" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/bg_cadastro_seletor</item>
+        <item name="android:popupBackground">@color/ranking_surface</item>
+    </style>
+    <style name="Widget.Tcc_final.Cadastro.Tag" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/cadastro_tag_fundo</item>
+        <item name="android:textColor">@color/cadastro_tag_texto</item>
+        <item name="chipStrokeColor">@color/cadastro_tag_contorno</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconTint">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.Tcc_final.Principal" parent="Theme.Tcc_final">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

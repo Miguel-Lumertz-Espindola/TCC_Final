@@ -1,0 +1,17 @@
+<resources>
+    <color name="ranking_background">#000000</color>
+    <color name="ranking_surface">#181818</color>
+    <color name="ranking_surface_selected">#302316</color>
+    <color name="ranking_accent">#FFA500</color>
+    <color name="ranking_text">#FFFFFF</color>
+    <color name="ranking_text_secondary">#B3B3B3</color>
+    <color name="ranking_border">#333333</color>
+    <string name="ranking_title">Tabela de Classificação</string>
+    <string name="ranking_subtitle">Acompanhe o progresso da comunidade</string>
+    <string name="ranking_position">Pos.</string>
+    <string name="ranking_player">Jogador</string>
+    <string name="ranking_points">Pontos</string>
+    <string name="ranking_points_value">%1$d pts</string>
+    <string name="ranking_position_value">%1$dº</string>
+    <string name="ranking_you">%1$s (Você)</string>
+</resources>

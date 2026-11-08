@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/bg_ranking_row" android:padding="16dp" android:layout_marginBottom="12dp">
+    <TextView android:id="@+id/nomeRefeicaoPlanejada" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/white" android:textSize="18sp" android:textStyle="bold" />
+    <TextView android:id="@+id/horarioRefeicaoPlanejada" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/ranking_accent" android:textSize="14sp" />
+    <TextView android:id="@+id/descricaoRefeicaoPlanejada" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textColor="@color/ranking_text_secondary" android:textSize="16sp" />
+</LinearLayout>

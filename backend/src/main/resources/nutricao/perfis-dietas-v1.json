@@ -1,0 +1,689 @@
+{
+  "versao": "1.0-demo",
+  "perfis": [
+    {
+      "codigo": "MANUTENCAO_PRATICO",
+      "nome": "Manutenção · prático e econômico",
+      "objetivo": "MANUTENCAO",
+      "niveisAtividade": [
+        "SEDENTARIO",
+        "LEVE"
+      ],
+      "praticidade": "RAPIDA",
+      "rigor": "FLEXIVEL",
+      "orcamento": "ECONOMICO",
+      "variantes": [
+        {
+          "codigo": "A_TRADICIONAL",
+          "nome": "Cardápio tradicional · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [],
+          "componentesAlimentares": [
+            "GLUTEN",
+            "LACTOSE",
+            "CARNE",
+            "ORIGEM_ANIMAL"
+          ],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Pão integral, queijo branco, mamão.",
+              "ingredientes": [
+                "Pão integral",
+                "queijo branco",
+                "mamão"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz, feijão, frango, cenoura, salada.",
+              "ingredientes": [
+                "Arroz",
+                "feijão",
+                "frango",
+                "cenoura",
+                "salada"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Sopa de legumes, ovo, torrada integral.",
+              "ingredientes": [
+                "Sopa de legumes",
+                "ovo",
+                "torrada integral"
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B_VEGETAL_SEM_GLUTEN",
+          "nome": "Cardápio vegetal, sem lactose e sem glúten · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [
+            "SEM_LACTOSE",
+            "SEM_GLUTEN",
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "componentesAlimentares": [],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Cuscuz de milho sem glúten, pasta de feijão, mamão.",
+              "ingredientes": [
+                "Cuscuz de milho sem glúten",
+                "pasta de feijão",
+                "mamão"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz, feijão, abóbora, couve, salada.",
+              "ingredientes": [
+                "Arroz",
+                "feijão",
+                "abóbora",
+                "couve",
+                "salada"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Sopa de lentilha, batata, cenoura.",
+              "ingredientes": [
+                "Sopa de lentilha",
+                "batata",
+                "cenoura"
+              ]
+            }
+          ]
+        }
+      ],
+      "pesoReferenciaKg": 80,
+      "alturaReferenciaCm": 175
+    },
+    {
+      "codigo": "MANUTENCAO_VARIADO",
+      "nome": "Manutenção · variado",
+      "objetivo": "MANUTENCAO",
+      "niveisAtividade": [
+        "MODERADO",
+        "INTENSO"
+      ],
+      "praticidade": "ELABORADA",
+      "rigor": "ESTRUTURADO",
+      "orcamento": "FLEXIVEL",
+      "variantes": [
+        {
+          "codigo": "A_TRADICIONAL",
+          "nome": "Cardápio tradicional · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [],
+          "componentesAlimentares": [
+            "GLUTEN",
+            "LACTOSE",
+            "CARNE",
+            "ORIGEM_ANIMAL"
+          ],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Iogurte natural, aveia, banana.",
+              "ingredientes": [
+                "Iogurte natural",
+                "aveia",
+                "banana"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz integral, lentilha, peixe, abobrinha.",
+              "ingredientes": [
+                "Arroz integral",
+                "lentilha",
+                "peixe",
+                "abobrinha"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Massa integral, frango, tomate, folhas.",
+              "ingredientes": [
+                "Massa integral",
+                "frango",
+                "tomate",
+                "folhas"
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B_VEGETAL_SEM_GLUTEN",
+          "nome": "Cardápio vegetal, sem lactose e sem glúten · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [
+            "SEM_LACTOSE",
+            "SEM_GLUTEN",
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "componentesAlimentares": [],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Tapioca sem glúten, pasta de grão-de-bico, fruta.",
+              "ingredientes": [
+                "Tapioca sem glúten",
+                "pasta de grão-de-bico",
+                "fruta"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz integral, grão-de-bico, abobrinha, folhas.",
+              "ingredientes": [
+                "Arroz integral",
+                "grão-de-bico",
+                "abobrinha",
+                "folhas"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Quinoa sem glúten, lentilha, legumes assados.",
+              "ingredientes": [
+                "Quinoa sem glúten",
+                "lentilha",
+                "legumes assados"
+              ]
+            }
+          ]
+        }
+      ],
+      "pesoReferenciaKg": 60,
+      "alturaReferenciaCm": 160
+    },
+    {
+      "codigo": "EMAGRECIMENTO_PRATICO",
+      "nome": "Emagrecimento · prático e econômico",
+      "objetivo": "EMAGRECIMENTO",
+      "niveisAtividade": [
+        "SEDENTARIO",
+        "LEVE"
+      ],
+      "praticidade": "RAPIDA",
+      "rigor": "FLEXIVEL",
+      "orcamento": "ECONOMICO",
+      "variantes": [
+        {
+          "codigo": "A_TRADICIONAL",
+          "nome": "Cardápio tradicional · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [],
+          "componentesAlimentares": [
+            "GLUTEN",
+            "LACTOSE",
+            "CARNE",
+            "ORIGEM_ANIMAL"
+          ],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Pão integral, ovo, leite, fruta.",
+              "ingredientes": [
+                "Pão integral",
+                "ovo",
+                "leite",
+                "fruta"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz, feijão, frango, abóbora, salada.",
+              "ingredientes": [
+                "Arroz",
+                "feijão",
+                "frango",
+                "abóbora",
+                "salada"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Legumes, frango desfiado, batata.",
+              "ingredientes": [
+                "Legumes",
+                "frango desfiado",
+                "batata"
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B_VEGETAL_SEM_GLUTEN",
+          "nome": "Cardápio vegetal, sem lactose e sem glúten · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [
+            "SEM_LACTOSE",
+            "SEM_GLUTEN",
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "componentesAlimentares": [],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Cuscuz de milho sem glúten, pasta de feijão, fruta.",
+              "ingredientes": [
+                "Cuscuz de milho sem glúten",
+                "pasta de feijão",
+                "fruta"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz, feijão, abóbora, brócolis, salada.",
+              "ingredientes": [
+                "Arroz",
+                "feijão",
+                "abóbora",
+                "brócolis",
+                "salada"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Sopa de legumes, lentilha, batata.",
+              "ingredientes": [
+                "Sopa de legumes",
+                "lentilha",
+                "batata"
+              ]
+            }
+          ]
+        }
+      ],
+      "pesoReferenciaKg": 80,
+      "alturaReferenciaCm": 175
+    },
+    {
+      "codigo": "EMAGRECIMENTO_VARIADO",
+      "nome": "Emagrecimento · variado",
+      "objetivo": "EMAGRECIMENTO",
+      "niveisAtividade": [
+        "MODERADO",
+        "INTENSO"
+      ],
+      "praticidade": "ELABORADA",
+      "rigor": "ESTRUTURADO",
+      "orcamento": "FLEXIVEL",
+      "variantes": [
+        {
+          "codigo": "A_TRADICIONAL",
+          "nome": "Cardápio tradicional · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [],
+          "componentesAlimentares": [
+            "GLUTEN",
+            "LACTOSE",
+            "CARNE",
+            "ORIGEM_ANIMAL"
+          ],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Iogurte natural, fruta, pão integral.",
+              "ingredientes": [
+                "Iogurte natural",
+                "fruta",
+                "pão integral"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz integral, peixe, brócolis, salada.",
+              "ingredientes": [
+                "Arroz integral",
+                "peixe",
+                "brócolis",
+                "salada"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Grão-de-bico, legumes, omelete.",
+              "ingredientes": [
+                "Grão-de-bico",
+                "legumes",
+                "omelete"
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B_VEGETAL_SEM_GLUTEN",
+          "nome": "Cardápio vegetal, sem lactose e sem glúten · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [
+            "SEM_LACTOSE",
+            "SEM_GLUTEN",
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "componentesAlimentares": [],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Tapioca sem glúten, pasta de grão-de-bico, mamão.",
+              "ingredientes": [
+                "Tapioca sem glúten",
+                "pasta de grão-de-bico",
+                "mamão"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz integral, lentilha, legumes, folhas.",
+              "ingredientes": [
+                "Arroz integral",
+                "lentilha",
+                "legumes",
+                "folhas"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Grão-de-bico, quinoa sem glúten, abobrinha, salada.",
+              "ingredientes": [
+                "Grão-de-bico",
+                "quinoa sem glúten",
+                "abobrinha",
+                "salada"
+              ]
+            }
+          ]
+        }
+      ],
+      "pesoReferenciaKg": 60,
+      "alturaReferenciaCm": 160
+    },
+    {
+      "codigo": "HIPERTROFIA_PRATICO",
+      "nome": "Hipertrofia · prático e econômico",
+      "objetivo": "HIPERTROFIA",
+      "niveisAtividade": [
+        "SEDENTARIO",
+        "LEVE"
+      ],
+      "praticidade": "RAPIDA",
+      "rigor": "FLEXIVEL",
+      "orcamento": "ECONOMICO",
+      "variantes": [
+        {
+          "codigo": "A_TRADICIONAL",
+          "nome": "Cardápio tradicional · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [],
+          "componentesAlimentares": [
+            "GLUTEN",
+            "LACTOSE",
+            "CARNE",
+            "ORIGEM_ANIMAL"
+          ],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Pão integral, ovos, leite, banana.",
+              "ingredientes": [
+                "Pão integral",
+                "ovos",
+                "leite",
+                "banana"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz, feijão, carne bovina, legumes.",
+              "ingredientes": [
+                "Arroz",
+                "feijão",
+                "carne bovina",
+                "legumes"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Batata, frango, salada.",
+              "ingredientes": [
+                "Batata",
+                "frango",
+                "salada"
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B_VEGETAL_SEM_GLUTEN",
+          "nome": "Cardápio vegetal, sem lactose e sem glúten · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [
+            "SEM_LACTOSE",
+            "SEM_GLUTEN",
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "componentesAlimentares": [],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Cuscuz de milho sem glúten, pasta de feijão, banana.",
+              "ingredientes": [
+                "Cuscuz de milho sem glúten",
+                "pasta de feijão",
+                "banana"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz, feijão, lentilha, legumes.",
+              "ingredientes": [
+                "Arroz",
+                "feijão",
+                "lentilha",
+                "legumes"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Batata, grão-de-bico, couve, salada.",
+              "ingredientes": [
+                "Batata",
+                "grão-de-bico",
+                "couve",
+                "salada"
+              ]
+            }
+          ]
+        }
+      ],
+      "pesoReferenciaKg": 80,
+      "alturaReferenciaCm": 175
+    },
+    {
+      "codigo": "HIPERTROFIA_VARIADO",
+      "nome": "Hipertrofia · variado",
+      "objetivo": "HIPERTROFIA",
+      "niveisAtividade": [
+        "MODERADO",
+        "INTENSO"
+      ],
+      "praticidade": "ELABORADA",
+      "rigor": "ESTRUTURADO",
+      "orcamento": "FLEXIVEL",
+      "variantes": [
+        {
+          "codigo": "A_TRADICIONAL",
+          "nome": "Cardápio tradicional · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [],
+          "componentesAlimentares": [
+            "GLUTEN",
+            "LACTOSE",
+            "CARNE",
+            "ORIGEM_ANIMAL"
+          ],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Iogurte natural, aveia, ovos, fruta.",
+              "ingredientes": [
+                "Iogurte natural",
+                "aveia",
+                "ovos",
+                "fruta"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz integral, lentilha, frango, legumes.",
+              "ingredientes": [
+                "Arroz integral",
+                "lentilha",
+                "frango",
+                "legumes"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Massa integral, peixe, molho de tomate, salada.",
+              "ingredientes": [
+                "Massa integral",
+                "peixe",
+                "molho de tomate",
+                "salada"
+              ]
+            }
+          ]
+        },
+        {
+          "codigo": "B_VEGETAL_SEM_GLUTEN",
+          "nome": "Cardápio vegetal, sem lactose e sem glúten · exemplo",
+          "demonstracao": true,
+          "compatibilidades": [
+            "SEM_LACTOSE",
+            "SEM_GLUTEN",
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "componentesAlimentares": [],
+          "refeicoes": [
+            {
+              "tipo": "Cafe_da_Manha",
+              "nome": "Café da manhã",
+              "horario": "Manhã",
+              "descricao": "Tapioca sem glúten, pasta de grão-de-bico, fruta.",
+              "ingredientes": [
+                "Tapioca sem glúten",
+                "pasta de grão-de-bico",
+                "fruta"
+              ]
+            },
+            {
+              "tipo": "Almoco",
+              "nome": "Almoço",
+              "horario": "12h–13h",
+              "descricao": "Arroz integral, lentilha, grão-de-bico, legumes.",
+              "ingredientes": [
+                "Arroz integral",
+                "lentilha",
+                "grão-de-bico",
+                "legumes"
+              ]
+            },
+            {
+              "tipo": "Jantar",
+              "nome": "Jantar",
+              "horario": "Noite",
+              "descricao": "Quinoa sem glúten, feijão, batata, legumes assados.",
+              "ingredientes": [
+                "Quinoa sem glúten",
+                "feijão",
+                "batata",
+                "legumes assados"
+              ]
+            }
+          ]
+        }
+      ],
+      "pesoReferenciaKg": 60,
+      "alturaReferenciaCm": 160
+    }
+  ]
+}
